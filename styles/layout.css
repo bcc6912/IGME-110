@@ -6,13 +6,6 @@ h1, h2, h3 {
 
 h1, h3 {
     display: flex;
-}
-
-h1 {
-    font-size: 36px;
-}
-
-h3 {
     font-size: 36px;
 }
 
@@ -49,6 +42,7 @@ body {
 
 p, li {
     font-family: 'Aldrich', sans-serif;
+    display: flex;
 }
 
 li {
@@ -72,12 +66,15 @@ li {
     margin-bottom: 1em;
 }
 
-#aboutme, #righttext {
+#aboutme, #righttext, #projects {
     padding: 0em 1em 0em 1em;
     width: 47%;
     float: right;
     height: 400px;
     margin-bottom: 1em;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
 }
 
 footer {
@@ -100,4 +97,12 @@ footer {
     float: left;
     height: 400px;
     margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects {
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
