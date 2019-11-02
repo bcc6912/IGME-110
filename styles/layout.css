@@ -82,7 +82,7 @@ footer {
     clear: both;
 }
 
-#portrait img, #aboutme, #container, footer, header {
+#portrait img, #aboutme, #container, footer, header, #lefttext, #projects, #righttext {
     border: 5px solid crimson;
 }
 
