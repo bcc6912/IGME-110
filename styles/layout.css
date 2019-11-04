@@ -20,6 +20,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: left;
+    background-color: rgb(165, 165, 165);
+
 }
 
 body {
@@ -33,10 +35,10 @@ body {
 }
 
 #container {
-    width: 700px;
+    width: fit-content;
     height: fit-content;
     margin: 0 auto;
-    background-color: rgb(165, 165, 165);
+    
     padding: 15px;
 }
 
@@ -60,10 +62,19 @@ li {
   }
 
 #portrait {
+    width: 300px;
+    height: 350px;
+    float: center;
+    margin-bottom: 1em;
+    display: flex;
+}
+
+#portraitholder {
     width: 43%;
     height: 400px;
     float: left;
     margin-bottom: 1em;
+    justify-content: center;
 }
 
 #aboutme, #righttext, #projects {
@@ -75,20 +86,25 @@ li {
     display: flex;
     justify-content: left;
     flex-direction: column;
+    background-color: rgb(165, 165, 165);
 }
 
 footer {
     padding: 1em 1em 0em 1em;
     clear: both;
+    background-color: rgb(165, 165, 165);
+
 }
 
-#portrait img, #aboutme, #container, footer, header, #lefttext, #projects, #righttext {
+#portrait img, #aboutme, footer, header, #lefttext, #projects, #righttext {
     border: 5px solid crimson;
+    
 }
 
 #pagetitle, #pagesummary {
     display: flex;
     padding: 0em 1em 0em 1em;
+
 }
 
 #lefttext {
@@ -99,10 +115,14 @@ footer {
     margin-bottom: 1em;
     display: flex;
     flex-direction: column;
+    background-color: rgb(165, 165, 165);
+
 }
 
 #projects {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(165, 165, 165);
+
 }
